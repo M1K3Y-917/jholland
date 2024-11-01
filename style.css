@@ -12,6 +12,30 @@ html {
     display: flex;
     border-bottom: 2px #052C32 solid;
     height: 5rem;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000000000000;
+    background-color: #35CF5C;
+
+    width: 100%;
+}
+
+.sticky-nav {
+
+    position: fixed;
+    transition: all 0.4s;
+}
+
+.navi {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-around;
+}
+
+.nav-link {
+    font-size: 0.8rem;
+    color: #052C32;
+    text-decoration: none;
 }
 
 body {
@@ -27,7 +51,7 @@ h1 {
     font-family: 'spicy rice';
     font-family: 'ObelixPro';
     font-weight: 900;
-    background-color: #CDE10A;
+    /* background-color: #CDE10A; */
     font-size: 3rem;
     text-align: center;
     word-spacing: 6px;
