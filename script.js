@@ -1,7 +1,7 @@
 // alert("Heloo");
 
 const section = document.querySelectorAll(".sections");
-const abt = document.querySelector("#abt");
+const abt = document.querySelector(".abt--img");
 const nav = document.querySelector(".nav");
 
 const observer = new IntersectionObserver(

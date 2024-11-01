@@ -16,6 +16,7 @@ html {
     align-items: center;
     z-index: 1000000000000;
     background-color: #35CF5C;
+    padding: 0 1.6rem;
 
     width: 100%;
 }
@@ -30,6 +31,12 @@ html {
     display: flex;
     gap: 2rem;
     justify-content: space-around;
+    list-style: none;
+    font-size: 1.8rem;
+    font-family: 'ObelixPro';
+    font-weight: 500;
+    padding-top: 1rem;
+    color: #052C32;
 }
 
 .nav-link {
@@ -42,6 +49,10 @@ body {
     background-color: #fff;
     background-color: #35CF5C;
     font-family: 'inter';
+    font-family: 'arial';
+    font-family: 'bahnschrift';
+    font-family: 'tahoma';
+    font-family: 'rubik';
     /* system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
 }
 
@@ -84,11 +95,14 @@ p {
     transform: translateX(-8rem);
 }
 
-ul {
+.classes {
     list-style: none;
     font-size: 1.8rem;
     font-family: 'ObelixPro';
     font-weight: 500;
     padding-top: 1rem;
     color: #052C32;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
 }
