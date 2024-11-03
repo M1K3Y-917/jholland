@@ -106,3 +106,8 @@ p {
     flex-direction: column;
     gap: 1.2rem;
 }
+
+#map {
+    height: 250px;
+    width: 300px;
+}
